@@ -99,7 +99,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "北京时间",
+        title: "Beijing time",
         href: "/time.html"
+    }
+    {
+        title: "happy birthday",
+        href: "/happybirthday.html"
     }
 ]
