@@ -997,6 +997,8 @@
         }
 
     </style>
+    <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="./js/jscss1.js"></script>	
 
 </head>
 <body>
@@ -1064,6 +1066,30 @@
 
     <div class="cake"></div>
     <div class="plate"></div>
+    
+    <div id="newDay"></div>
+    <div id="zzsc">
+         <canvas id="canvas" width="520" height="200"></canvas>
+    </div>
+
+    <div class="cake"></div>
+    <div class="plate"></div>
+    
+    <script>
+	 function timer(){
+       		let date= new Date(); //本地时间
+		let year=date.getFullYear(); //获取当前年份   
+		let mon=date.getMonth()+1; //获取当前月份   
+		let da=date.getDate(); //获取当前日 
+		let str = year + "-" + mon + "-" + da;
+		
+		document.getElementById("newDay").innerHTML = str;
+	}
+	
+	
+    	timer(); //输出时间
+
+    </script>
   
 
     
