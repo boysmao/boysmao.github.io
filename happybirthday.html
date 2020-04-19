@@ -15,7 +15,7 @@
         display: block;
         }
 
-        h1, h2, span {
+        h1, h2, h3, span {
         display: none;
         }
 
@@ -24,7 +24,7 @@
             display: none;
         }
 
-        h1, h2, span {
+        h1, h2, h3, span {
             display: block;
             
         }
@@ -67,6 +67,16 @@
             width: 100%;
             top: 50px;
             font-size: 90px;
+            background: -webkit-linear-gradient(90deg, #e9e6ff 0%, white 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h3 {
+            position: fixed;
+            text-align: center;
+            width: 100%;
+            top: -70px;
+            font-size: 80px;
             background: -webkit-linear-gradient(90deg, #e9e6ff 0%, white 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -1046,7 +1056,10 @@
     </div>
     <h1>Herzlichen Glückwunsch!!</h1>
     <h2>Happy birthday to you!</h2>
-    <span>🎉</span>
+    <h3>
+        <a href="http://mxzblog.online/happybirthday.html" style="display: block;margin:0 15%;box-shadow: 0px 2px 10px black;">Yuzhi or Xiaojin</a>
+    </h3>
+    <span style="top:-30px">🎉</span>
     <div class="candle">
         <div id="flame" class="lit"></div>
     </div>
